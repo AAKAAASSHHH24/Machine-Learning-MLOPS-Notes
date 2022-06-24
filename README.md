@@ -37,6 +37,7 @@ Automated ML pipeline with CI/CD routines:
 
 ![mlops-automated](https://user-images.githubusercontent.com/101935492/175422911-5f5220b9-2ab6-4836-8735-bd528fabaf84.jpg)
 
+The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. It automates the machine learning pipeline (building, testing and deploying) and greatly reduces the need for data scientists to intervene in the process manually, making it efficient, fast, and less prone to human error.
 
-
-
+![cicd pipeline microsoft](https://user-images.githubusercontent.com/101935492/175451597-229cc70e-7982-48d7-ba94-dd7709bfca5d.png)
+ 
