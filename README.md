@@ -36,3 +36,7 @@ To adopt MLOps, we see three levels of automation:
 Automated ML pipeline with CI/CD routines:
 
 ![mlops-automated](https://user-images.githubusercontent.com/101935492/175422911-5f5220b9-2ab6-4836-8735-bd528fabaf84.jpg)
+
+
+
+
