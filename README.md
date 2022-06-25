@@ -53,4 +53,17 @@ The picture below shows that the model monitoring can be implemented by tracking
 
 ![model-decay-monitoring](https://user-images.githubusercontent.com/101935492/175595397-eb6c401c-30ac-4dfd-88c4-4ce57565fb63.jpg)
 
+ML Systems Require Extensive Testing and Monitoring. The key consideration is that unlike a manually coded system (left), ML-based
+system behavior is not easily specified in advance. This behavior depends on dynamic qualities of the data, and on various model configuration choices.
+
+![image](https://user-images.githubusercontent.com/101935492/175776217-af0cac33-cb7f-47d0-9f6b-88526cdbba46.png)
+
+The complete ML development pipeline includes three levels where changes can occur: Data, ML Model, and Code. This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, data change or model change. The following table summarizes the MLOps principles for building ML-based software:
+
+MLops Principles:
+![MLOPS PRINCIPLES](https://user-images.githubusercontent.com/101935492/175783662-9b5adc73-4b4c-4c12-b840-3babd3e1f138.jpg)
+
+MLOps Best Practices
+![MLops best practices](https://user-images.githubusercontent.com/101935492/175783754-bdf0cb0b-07d9-4158-af85-90e6d1909c07.jpg)
+
 
