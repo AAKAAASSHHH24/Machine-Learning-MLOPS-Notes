@@ -39,5 +39,18 @@ Automated ML pipeline with CI/CD routines:
 
 The main concepts attributed to CI/CD are continuous integration, continuous delivery, and continuous deployment. It automates the machine learning pipeline (building, testing and deploying) and greatly reduces the need for data scientists to intervene in the process manually, making it efficient, fast, and less prone to human error.
 
+Example of CI/CD pipeline (App Developer vs. Data Scientist). Source: Microsoft:
+
 ![cicd pipeline microsoft](https://user-images.githubusercontent.com/101935492/175451597-229cc70e-7982-48d7-ba94-dd7709bfca5d.png)
+
+Machine learning pipelines consist of multiple sequential steps that do everything from data extraction and preprocessing to model training and deployment.
+Machine learning pipelines are iterative as every step is repeated to continuously improve the accuracy of the model and achieve the end goal.
+
+![model feedback](https://user-images.githubusercontent.com/101935492/175602953-37de73cd-020e-4b2d-b3c5-75163ce9edef.png)
+
  
+The picture below shows that the model monitoring can be implemented by tracking the precision, recall, and F1-score of the model prediction along with the time. The decrease of the precision, recall, and F1-score triggers the model retraining, which leads to model recovery
+
+![model-decay-monitoring](https://user-images.githubusercontent.com/101935492/175595397-eb6c401c-30ac-4dfd-88c4-4ce57565fb63.jpg)
+
+
